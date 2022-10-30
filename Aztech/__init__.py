@@ -22,9 +22,11 @@ logging.getLogger("pyrogram").setLevel(logging.INFO)
 
 API_ID = 10582318
 
-BOT_TOKEN = ""
+API_HASH = "ae5cb28621683b35873d9f71e7279471"
 
-LOGS_CHANNEL = ""
+BOT_TOKEN = "5325337803:AAEWNKsYHmsDaU4yi5riipewOM2VC837-i8"
+
+LOGS_CHANNEL = "-851491994"
 
 # --------- Clients ----------
 
