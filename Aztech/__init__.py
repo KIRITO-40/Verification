@@ -16,7 +16,8 @@ logging.basicConfig(
     format=FORMAT,
     datefmt="[%X]",
 )
-logging.getLogger("pyrogram").setLevel(logging.INFO)
+
+LOGGER = logging.getLogger("[Aztech]")
 
 # --------- Vars -----------
 
@@ -26,7 +27,7 @@ API_HASH = "ae5cb28621683b35873d9f71e7279471"
 
 BOT_TOKEN = "5325337803:AAEWNKsYHmsDaU4yi5riipewOM2VC837-i8"
 
-LOGS_CHANNEL = "-851491994"
+LOGS_CHANNEL = -851491994
 
 # --------- Clients ----------
 
