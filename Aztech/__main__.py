@@ -1,7 +1,7 @@
 # ------- imports --------
 
 import asyncio
-from Verify import Aztech
+from Aztech import Verify
 from pyrogram import idle
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
@@ -12,8 +12,8 @@ loop = asyncio.get_event_loop()
 IMG = "https://telegra.ph//file/ba29f6d17057c64640c3c.jpg"
 
 async def main():
-    await Aztech.start()
-    await Aztech.send_photo(-851491994, photo = IMG , caption = "Verification Bot Started",
+    await Verify.start()
+    await Verify.send_photo(-851491994, photo = IMG , caption = "Verification Bot Started",
                    reply_markup=InlineKeyboardMarkup([
                        [InlineKeyboardButton(text="Support", url=f"https://t.me/AztechSupport"),
                         InlineKeyboardButton(text="Network", url=f"https://t.me/AztechNetwork")]]),)
