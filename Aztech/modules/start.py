@@ -1,5 +1,5 @@
 from pyrogram import filters
-from pyrogram.types Message
+from pyrogram.types import Message
 from Aztech import Verify as pbot
 
 PIC = "https://telegra.ph//file/ba29f6d17057c64640c3c.jpg"
