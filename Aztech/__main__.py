@@ -9,7 +9,7 @@ loop = asyncio.get_event_loop()
 
 # -------- Codes ----------
 
-IMG = ""
+IMG = "https://telegra.ph//file/ba29f6d17057c64640c3c.jpg"
 
 async def main():
     await Aztech.start()
